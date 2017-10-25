@@ -1,0 +1,265 @@
+	        	String A = null;//Appearance 
+	        	int a= rnd.nextInt(20);
+	        	if(a==0) {
+	        		A="Distinctive jewelry: earrings, necklace, circlet, bracelets";
+	        	}
+	        	if(a==1) {
+	        		A="Piercings";
+	        	}
+	        	if(a==2) {
+	        		A="Flamboyant or outlandish clothes";
+	        	}
+	        	if(a==3) {
+	        		A="Formal, clean clothes";
+	        	}
+	        	if(a==4) {
+	        		A="Ragged, dirty clothes";
+	        	}
+	        	if(a==5) {
+	        		A="Pronounced scar";
+	        	}
+	        	if(a==6) {
+	        		A="Missing teeth";
+	        	}
+	        	if(a==7) {
+	        		A="Missing fingers";
+	        	}
+	        	if(a==8) {
+	        		A="Unusual eye color (or two different colors)";
+	        	}
+	        	if(a==9) {
+	        		A="Tattoos";
+	        	}
+	        	if(a==10) {
+	        		A="Birthmark";
+	        	}
+	        	if(a==11) {
+	        		A="Unusual skin color";
+	        	}
+	        	if(a==12) {
+	        		A="Bald";
+	        	}
+	        	if(a==13) {
+	        		A="Braided beard or hair";
+	        	}
+	        	if(a==14) {
+	        		A="Unusual hair color";
+	        	}
+	        	if(a==15) {
+	        		A="Nervous eye twitch";
+	        	}
+	        	if(a==16) {
+	        		A="Distinctive nose";
+	        	}
+	        	if(a==17) {
+	        		A="Distinctive posture (crooked or rigid)";
+	        	}
+	        	if(a==18) {
+	        		A="Exceptionally beautiful";
+	        	}
+	        	if(a==19) {
+	        		A="Exceptionally ugly";
+	        	}
+	        	String T = null;//Temperament
+	        	int t=rnd.nextInt(12);
+	        	if(t==0) {
+	        		T="Argumentative";
+	        	}
+	        	if(t==1) {
+	        		T="Arrogant";
+	        	}
+	        	if(t==2) {
+	        		T="Blustering";
+	        	}
+	        	if(t==3) {
+	        		T="Rude";
+	        	}
+	        	if(t==4) {
+	        		T="Curious";
+	        	}
+	        	if(t==5) {
+	        		T="Friendly";
+	        	}
+	        	if(t==6) {
+	        		T="Honest";
+	        	}
+	        	if(t==7) {
+	        		T="Hot tempered";
+	        	}
+	        	if(t==8) {
+	        		T="Irritable";
+	        	}
+	        	if(t==9) {
+	        		T="Ponderous";
+	        	}
+	        	if(t==10) {
+	        		T="Quiet";
+	        	}
+	        	if(t==11) {
+	        		T="Suspicious";
+	        	}
+	        	String M = null;//Mannerism
+	        	int m=rnd.nextInt(20);
+	        	if(m==0) {
+	        		M="Prone to singing, whistling, or humming quietly";
+	        	}
+	        	if(m==1) {
+	        		M="Speaks in rhyme or some other peculiar way";
+	        	}
+	        	if(m==2) {
+	        		M="Particularly low or high voice";
+	        	}
+	        	if(m==3) {
+	        		M="Slurs words, lisps, or stutters";
+	        	}
+	        	if(m==4) {
+	        		M="Enunciates overly clearly";
+	        	}
+	        	if(m==5) {
+	        		M="Speaks loudly";
+	        	}
+	        	if(m==6) {
+	        		M="Whispers";
+	        	}
+	        	if(m==7) {
+	        		M="Uses flowery speech or long words";
+	        	}
+	        	if(m==8) {
+	        		M="Frequently uses the wrong word";
+	        	}
+	        	if(m==9) {
+	        		M="Uses colorful oaths and exclamations";
+	        	}
+	        	if(m==10) {
+	        		M="Makes constant jokes or puns";
+	        	}
+	        	if(m==11) {
+	        		M="Prone to predictions of doom";
+	        	}
+	        	if(m==12) {
+	        		M="Fidgets";
+	        	}
+	        	if(m==13) {
+	        		M="Squints";
+	        	}
+	        	if(m==14) {
+	        		M="Stares into the distance";
+	        	}
+	        	if(m==15) {
+	        		M="Chews something";
+	        	}
+	        	if(m==16) {
+	        		M="Paces";
+	        	}
+	        	if(m==17) {
+	        		M="Taps fingers";
+	        	}
+	        	if(m==18) {
+	        		M="Bites fingernails";
+	        	}
+	        	if(m==19) {
+	        		M="Twirls hair or tugs beard";
+	        	}
+	        	
+	        	String O = null;//Occupation
+	        	String[] nm1 = {"Academic","Accountant","Acolyte","Acrobat","Actor","Administrator","Adventurer","Advisor","Alchemist","Almoner","Animal Breeder","Animal Handler","Anthropologist","Apothecary","Archaeologist","Archer","Architect","Archivist","Armorer","Arms Merchant","Artisan","Artist","Ascetic","Assassin","Astrologist","Astronomist","Baker","Bandit","Banker","Barber","Bard","Barkeep","Barmaid","Barrister","Beastmaster","Beekeeper","Beggar","Biologist","Blacksmith","Board Member","Boatman","Bodyguard","Bookbinder","Botanist","Bottler","Bounty Hunter","Brewer","Brick Maker","Bricklayer","Bridge Builder","Brigand","Buccaneer","Buckle Maker","Builder","Bureaucrat","Burglar","Butcher","Butler","Cannoneer","Caravan Leader","Carder","Carpenter","Carter","Cartographer","Cartwright","Chamberlain","Chandler","Charioteer","Cheesemaker","Chef","Chemist","Chirurgeon","Clergy","Cleric","Clerk","Clock Maker","Clothes Washer","Clothier","Clown","Coachman","Coinsmith","Commander","Con Artist","Conjurer","Cook","Cooper","Counselor","Courtesan","Courtier","Cowherd","Craftsman","Crossbowman","Crusader","Cutler","Cutpurse","Dairymaid","Dancer","Demonologist","Dentist","Detective","Diplomat","Distiller","Diver","Doctor","Drayman","Driver","Druid","Duchess","Duelist","Duke","Dyer","Economist","Enchanter","Engineer","Engraver","Executioner","Explorer","Falconer","Farmer","Farrier","Ferryman","Firemaker","Fisherman","Fishmonger","Fletcher","Forester","Fortune Teller","Friar","Furrier","Gambler","Gardener","Gatekeeper","Gemsmith","Geologist","Geomancer","Gladiator","Glassblower","Glazier","Glovemaker","Goldsmith","Gravedigger","Groom","Guard","Guildmaster","Hacker","Handmaiden","Hatter","Hayward","Healer","Herald","Herbalist","Herder","Herdsman","Highwayman","Historian","Horse Breeder","Horse Trainer","Hounds Master","Hunter","Illuminator","Innkeeper","Inscriptionist","Instructor","Interpreter","Inventor","Investor","Jailer","Jester","Jewelcrafter","Jeweler","Judge","Juggler","King","Knight","Lady","Lady in Waiting","Lantern Maker","Lawyer","Leatherworker","Librarian","Lighthouse Keeper","Limner","Linguist","Loanshark","Locksmith","Longbowman","Lord","Loremaster","Lumberjack","Machinist","Magician","Maid","Maidservant","Man at Arms","Marine","Marksman","Mason","Mayor","Mechanic","Mercenary","Merchant","Messenger","Meteorologist","Midwife","Milkmaid","Miller","Milliner","Mine Owner","Miner","Minion","Minister","Minstrel","Mirror Maker","Moneylender","Monk","Monster slayer","Mortician","Mourner","Mugger","Mule Driver","Musician","Necromancer","Nun","Nurse","Officer","Page","Painter","Paladin","Paper Maker","Paratrooper","Pastor","Pastry Cook","Pawnbroker","Peasant","Peddler","Perfumer","Pharmacist","Philosopher","Philospher","Photographer","Physician","Pickpocket","Pigkeeper","Pilgrim","Pilot","Pirate","Pit Fighter","Poet","Politician","Postman","Potter","Preacher","Priest","Prince","Princess","Procurer","Professor","Programmer","Prophet","Pursemaker","Pyromancer","Pyrotechnician","Quartermaster","Queen","Raider","Ranger","Rat-Catcher","Ratcatcher","Riflesmith","Rogue","Roofer","Rope Maker","Ropemaker","Royal Advisor","Rugmaker","Runecrafter","Saddler","Sage","Sailor","Salter","Sapper","Scavenger","Scholar","Scout","Scribe","Scrivener","Sculptor","Seamaster","Seamstress","Secretary","Seer","Servant","Shaman","Shepherd","Sheriff","Ship Builder","Ship's Captain","Ship's Mate","Shipwright","Shoemaker","Shrubber","Silversmith","Singer","Skinner","Slave","Slave Master","Slave Trader","Slaver","Smith","Smuggler","Soldier","Songwriter","Sorcerer","Special Forces","Spice Merchant","Spiritual Healer","Sportsman","Spy","Squire","Stable Hand","Stablehand","Stabler","Stevedore","Steward","Storyteller","Student","Summoner","Surgeon","Surveyor","Sword Smith","Swordsman","Synthesist","Tailor","Tanner","Tavernkeep","Tax Collector","Teacher","Technician","Templar","Terraformer","Thatcher","Thief","Timelord","Tinker","Toll Keeper","Torturer","Town Counselor","Town Crier","Tracker","Trader","Trainer","Trapper","Treasure Hunter","Vendor","Village Idiot","Warlock","Warrior","Watchman","Water Carrier","Weaver","Wetnurse","Wheelwright","Wine Merchant","Witch","Wizard","Wood Merchant","Woodcarver","Woodcutter","Zookeeper","Zoologist"};
+	        	int o = (int) Math.floor(Math.random() * nm1.length);
+	    		O= nm1[o];
+	        	String R = null;//Race
+	        	int r = rnd.nextInt(100);
+	        	if(r<60) {
+	        		R="Human";	
+	        	}
+	        	if(r>=60 &&r<65) {
+	        		R="Dwarf";
+	        	}
+	        	if(r>=65 &&r<70) {
+	        		R="Elf";
+	        	}
+	        	if(r>=70 &&r<75) {
+	        		R="Halfling";
+	        	}
+	        	if(r>=75 &&r<77) {
+	        		R="Dragonborn";
+	        	}
+	        	if(r>=77 &&r<80) {
+	        		R="Tiefling";
+	        	}
+	        	if(r>=80 &&r<85) {
+	        		R="Gnome";
+	        	}
+	        	if(r>=85 &&r<90) {
+	        		R="Half-Orc";
+	        	}
+	        	if(r>=90) {
+	        		R="Half-Elf";
+	        	}
+	        	int g=rnd.nextInt(2);
+	        	String G = null;//Gender
+	        	if(g==0) {
+	        		G="Male";
+	        	}
+	        	if(g==1) {
+	        		G="Female";
+	        	}
+	        	String FN = null;//First Name
+	        	if(g==0) {
+	        		if(R.equals("Human")) {
+	        			FN=HumanMFNames();
+	        		}
+	        		if(R.equals("Dwarf")) {
+		        		FN=DwarfMFNames();
+		        		}
+	        		if(R.equals("Elf")) {
+		        		FN=ElfMFNames();
+		        		}
+	        		if(R.equals("Halfling")) {
+		        		FN=HalflingMFNames();
+		        		}
+	        		if(R.equals("Dragonborn")) {
+		        		FN=DragonbornMFNames();
+		        		}
+	        		if(R.equals("Tiefling")) {
+		        		FN=TieflingMFNames();
+		        		}
+	        		if(R.equals("Gnome")) {
+		        		FN=GnomeMFNames();
+		        		}
+	        		if(R.equals("Half-Orc")) {
+		        		FN=HalforcMFNames();
+		        		}
+	        		if(R.equals("Half-Elf")) {
+		        		FN=HalfelfMFNames();
+		        		}
+	        	}
+	        	if(g==1) {
+	        		if(R.equals("Human")) {
+	        			FN=HumanFFNames();
+	        		}
+	        		if(R.equals("Dwarf")) {
+		        		FN=DwarfFFNames();
+		        		}
+	        		if(R.equals("Elf")) {
+		        		FN=ElfFFNames();
+		        		}
+	        		if(R.equals("Halfling")) {
+		        		FN=HalflingFFNames();
+		        		}
+	        		if(R.equals("Dragonborn")) {
+		        		FN=DragonbornFFNames();
+		        		}
+	        		if(R.equals("Tiefling")) {
+		        		FN=TieflingFFNames();
+		        		}
+	        		if(R.equals("Gnome")) {
+		        		FN=GnomeFFNames();
+		        		}
+	        		if(R.equals("Half-Orc")) {
+		        		FN=HalforcFFNames();
+		        		}
+	        		if(R.equals("Half-Elf")) {
+		        		FN=HalfelfFFNames();
+		        		}
+	        	}
+	        	String LN = null;//Last Name
+	        	LN=LNames();
